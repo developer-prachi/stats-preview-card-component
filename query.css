@@ -1,0 +1,114 @@
+/*BELOW 1200px (smaller desktops)/*
+/*****************************************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*****************************************************/
+/*BELOW 1024px (Tablets and small desktop)/*
+/*****************************************************/
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/*****************************************************/
+/*BELOW 910 (Tablets)/*
+/*****************************************************/
+@media (max-width: 56em) {
+  .section-one {
+    width: 43rem;
+    padding: 5rem;
+    height: 33rem;
+  }
+  .image {
+    width: 43rem;
+    height: 33rem;
+  }
+  .content {
+    margin-bottom: 5rem;
+  }
+}
+
+/*****************************************************/
+/*BELOW 704 (smaller Tablets)/*
+/*****************************************************/
+@media (max-width: 44em) {
+  html {
+    /* 7/16 */
+    font-size: 43%;
+  }
+  .section-one {
+    width: 43rem;
+    padding: 5rem;
+    height: 33rem;
+  }
+  .image {
+    width: 43rem;
+    height: 33rem;
+  }
+  .content {
+    margin-bottom: 5rem;
+  }
+}
+
+/*****************************************************/
+/*BELOW 650px ( phones)/*
+/*****************************************************/
+@media (max-width: 40em) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    height: 100vh;
+    padding: 5rem;
+  }
+  .image {
+    align-self: flex-start;
+    position: relative;
+  }
+  .section-one {
+    width: auto;
+    padding: 3rem;
+    text-align: center;
+    height: auto;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .company-details {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+/* @media (max-width: 40em) {
+    .container {
+     display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    body {
+      height: auto;
+      padding: 2rem;
+    }
+    .section-one {
+      width: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    .image {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    } */
